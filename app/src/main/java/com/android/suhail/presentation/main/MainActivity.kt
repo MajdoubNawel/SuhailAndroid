@@ -1,4 +1,4 @@
-package com.android.suhail
+package com.android.suhail.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.android.suhail.ui.theme.SuhailAndroidTheme
+import com.android.suhail.presentation.ui.theme.SuhailAndroidTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
