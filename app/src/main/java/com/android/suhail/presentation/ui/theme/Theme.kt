@@ -1,4 +1,4 @@
-package com.android.suhail.ui.theme
+package com.android.suhail.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
