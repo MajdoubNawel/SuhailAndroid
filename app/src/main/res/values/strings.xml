@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">SuhailAndroid</string>
+    <string name="app_name">Suhail</string>
+    <string name="suhail_application" translatable="false">Suhail Application</string>
+    <string name="settings" translatable="false">Settings\n</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="plan" translatable="false">Plan</string>
+    <string name="nearby" translatable="false">Nearby</string>
+    <string name="departures" translatable="false">Departures</string>
+    <string name="happiness" translatable="false">Happiness</string>
+    <string name="signin" translatable="false">SignIn</string>
+    <string name="signUp" translatable="false">SignUp</string>
+    <string name="forgotPassword" translatable="false">Forgot your password ?</string>
+    <string name="connectwithpass">Sign in with UAE PASS</string>
+    <string name="profile">Profile</string>
 </resources>
