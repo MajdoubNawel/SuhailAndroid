@@ -1,6 +1,7 @@
 package com.android.suhail.presentation.features.authentification.signUp
 
 import androidx.compose.runtime.Composable
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 
 /**
@@ -12,4 +13,17 @@ var bindingModel: signUpBindingModel = signUpBindingModel()
 
 @Composable
 fun signUpScreen(navController: NavController) {
+    val viewModel: SignUpViewModel = hiltViewModel()
+    val signUpState = viewModel.viewStates
+
+    signUpState.value?.let { state ->
+        when (state) {
+            is SignUpStates.SignUpInProgress -> {
+
+            }
+            is SignUpStates.SignUpFailure -> {}
+            SignUpStates.SignUpSuccess -> {}
+        }
+    }
+
 }
